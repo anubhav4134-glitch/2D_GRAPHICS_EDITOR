@@ -1,0 +1,20 @@
+Problem Statement: Write a 2d graphics editor using * and  _.
+
+1. Write functions to draw a circle, rectangle, line, and triangle.
+2. You should be able to       add objects to the picture,       delete objects from the picture, and        modify objects in the picture.
+3. Use a 2d array of characters to store the picture.
+4. Write a function to display the picture.
+5. Requirements:
+   * Create a repository in GitHub.
+   * Submit the link to the GitHub repository in Moodle. (In the online text field provided in the assignment)
+   * Daily push to GitHub is mandatory.
+
+Answer:
+Here's a full-featured 2D graphics editor using * and _ characters — complete with all required shapes, add/delete/modify operations, and a live canvas display. I'll also give you the C source file for your GitHub repo.
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation-duration: 0.25s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+VvisualizeVvisualize show_widget
